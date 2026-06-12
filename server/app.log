@@ -126,3 +126,30 @@
 2026-06-05T01:16:01.491-03:00  INFO 5988 --- [server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2026-06-05T01:16:01.493-03:00  INFO 5988 --- [server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2026-06-05T01:16:01.690-03:00 ERROR 5988 --- [server] [http-nio-8080-exec-2] c.example.iot.server.ServerController    : Atenção! Integridade de dados comprometida!
+2026-06-12T12:07:54.983-03:00  INFO 17080 --- [server] [main] c.example.iot.server.ServerApplication   : Starting ServerApplication using Java 17.0.12 with PID 17080 (C:\Users\eduardo.msantos\Documents\projetos\server-client-interceptor\server\target\classes started by eduardo.msantos in C:\Users\eduardo.msantos\Documents\projetos\server-client-interceptor\server)
+2026-06-12T12:07:54.990-03:00  INFO 17080 --- [server] [main] c.example.iot.server.ServerApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T12:07:55.940-03:00  INFO 17080 --- [server] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-12T12:07:55.955-03:00  INFO 17080 --- [server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T12:07:55.955-03:00  INFO 17080 --- [server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-06-12T12:07:56.012-03:00  INFO 17080 --- [server] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 940 ms
+2026-06-12T12:07:56.507-03:00  INFO 17080 --- [server] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-12T12:07:56.514-03:00  INFO 17080 --- [server] [main] c.example.iot.server.ServerApplication   : Started ServerApplication in 2.064 seconds (process running for 2.547)
+2026-06-12T12:10:12.757-03:00  INFO 17080 --- [server] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-12T12:10:12.758-03:00  INFO 17080 --- [server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-12T12:10:12.759-03:00  INFO 17080 --- [server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-06-12T12:10:13.123-03:00 ERROR 17080 --- [server] [http-nio-8080-exec-2] c.example.iot.server.ServerController    : Atenção! Integridade de dados comprometida!
+2026-06-12T12:12:03.764-03:00  INFO 17080 --- [server] [http-nio-8080-exec-5] c.example.iot.server.ServerController    : Dados recebidos: {"patientId": "pat263", "doctorId": "doc333", "pulse": 191, "dateOfBirth": "1936-05-08"}
+2026-06-12T12:12:03.802-03:00  WARN 17080 --- [server] [http-nio-8080-exec-5] com.example.iot.server.ServerService     : ALERTA: Taquicardia detectada em Idoso!
+2026-06-12T12:14:56.437-03:00  INFO 23032 --- [server] [main] c.example.iot.server.ServerApplication   : Starting ServerApplication using Java 17.0.12 with PID 23032 (C:\Users\eduardo.msantos\Documents\projetos\server-client-interceptor\server\target\classes started by eduardo.msantos in C:\Users\eduardo.msantos\Documents\projetos\server-client-interceptor\server)
+2026-06-12T12:14:56.442-03:00  INFO 23032 --- [server] [main] c.example.iot.server.ServerApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-12T12:14:57.388-03:00  INFO 23032 --- [server] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-06-12T12:14:57.401-03:00  INFO 23032 --- [server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-12T12:14:57.401-03:00  INFO 23032 --- [server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-06-12T12:14:57.473-03:00  INFO 23032 --- [server] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 966 ms
+2026-06-12T12:14:58.057-03:00  INFO 23032 --- [server] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-06-12T12:14:58.066-03:00  INFO 23032 --- [server] [main] c.example.iot.server.ServerApplication   : Started ServerApplication in 2.115 seconds (process running for 2.488)
+2026-06-12T12:15:25.184-03:00  INFO 23032 --- [server] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-12T12:15:25.185-03:00  INFO 23032 --- [server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-12T12:15:25.189-03:00  INFO 23032 --- [server] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-12T12:15:25.572-03:00  INFO 23032 --- [server] [http-nio-8080-exec-3] c.example.iot.server.ServerController    : Dados recebidos: {"patientId": "pat849", "doctorId": "doc272", "pulse": 154, "dateOfBirth": "1980-06-06"}
+2026-06-12T12:15:25.604-03:00  WARN 23032 --- [server] [http-nio-8080-exec-3] com.example.iot.server.ServerService     : ALERTA: Taquicardia detectada em Adulto!

@@ -21,7 +21,7 @@ public class InterceptorController {
         logger.info("DADO INTERCEPTADO: {}", payload);
 
         // Simular ataque (alterar payload)
-        if (payload.containsKey("data")) {
+        if (!payload.containsKey("data")) {
             String data = payload.get("data").toString();
 
             if (data.length() > 4) {
